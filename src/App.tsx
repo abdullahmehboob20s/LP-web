@@ -1,24 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "layouts/Navbar";
+import Hero from "layouts/Hero";
+import ConferenceWith from "layouts/ConferenceWith";
+import Highlights from "layouts/Highlights";
+import GreatestMinds from "layouts/GreatestMinds";
+import Features from "layouts/Features";
+import Team from "layouts/Team";
+import Welcome from "layouts/Welcome";
+import Footer from "layouts/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Hero />
+      <div className="mb-200px">
+        <ConferenceWith />
+      </div>
+      <div className="mb-200px">
+        <Highlights />
+      </div>
+      <div className="mb-200px">
+        <GreatestMinds />
+      </div>
+      <div className="mb-200px">
+        <Features />
+      </div>
+      <div className="mb-200px">
+        <Team />
+      </div>
+      <div className="mb-100px">
+        <Welcome />
+      </div>
+      <Footer />
     </div>
   );
 }
