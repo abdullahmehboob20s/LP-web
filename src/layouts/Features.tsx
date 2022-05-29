@@ -21,20 +21,32 @@ function Features() {
       />
 
       <div className="container">
-        <h1 className="title mb-12">Features on:</h1>
+        <h1 className="title mb-6 sm:mb-12">Features on:</h1>
 
-        <div className="flex space-x-8">
+        <div className="flex flex-col sm:flex-row flex-wrap space-y-4 sm:space-y-0 sm:space-x-4 xl:space-x-8">
           <img
-            className="shadow-whitish rounded-lg bg-black"
+            className="w-[6rem] md:w-[8rem] xl:w-[12.0625rem] shadow-whitish rounded-lg bg-black"
             src={feature1}
             alt=""
           />
-          <img className="shadow-whitish rounded-lg" src={feature2} alt="" />
-          <div className="flex items-center shadow-whitish bg-black rounded-lg justify-center">
-            <img src={DJ} className="w-full" alt="" />
+          <img
+            className="w-[6rem] md:w-[8rem] xl:w-[12.0625rem] shadow-whitish rounded-lg"
+            src={feature2}
+            alt=""
+          />
+          <div className="w-fit py-6 flex items-center shadow-whitish bg-black rounded-lg justify-center">
+            <img
+              src={DJ}
+              className="w-[6rem] md:w-[8rem] xl:w-[12.0625rem]"
+              alt=""
+            />
           </div>
-          <div className="flex items-center shadow-whitish bg-black rounded-lg justify-center px-6">
-            <img src={HAAR} className="w-full" alt="" />
+          <div className="w-fit py-6 flex items-center shadow-whitish bg-black rounded-lg justify-center px-6">
+            <img
+              src={HAAR}
+              className="w-[8rem] md:w-[12rem] xl:w-[15.4375rem]"
+              alt=""
+            />
           </div>
         </div>
       </div>

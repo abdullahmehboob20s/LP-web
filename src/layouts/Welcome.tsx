@@ -18,25 +18,29 @@ function Welcome() {
         alt=""
       />
 
-      <div className="container flex items-center space-x-4 justify-between">
-        <div className="flex-1">
-          <h1 className="text-6xl text-white font-normal mb-3 leading-[1.2]">
+      <div className="container text-center lg:text-left flex-col-reverse lg:flex-row flex items-center space-x-4 justify-between">
+        <div className="mt-10 lg:mt-0 flex-1">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-6xl text-white font-normal mb-2 sm:mb-3 leading-[1.2]">
             Welcome to Halleluiah!
           </h1>
-          <p className="title mb-11">It’s time to join us.</p>
+          <p className="title mb-8 sm:mb-11">It’s time to join us.</p>
 
-          <div className="mb-16">
+          <div className="mb-7 sm:mb-10 xl:mb-16">
             <Button title="APPLY NOW" />
           </div>
 
-          <p className="desc font-normal max-w-[48rem]">
+          <p className="text-[1rem] sm:text-[1.2rem] xl:text-2xl text-white leading-[1.6] lg:leading-[1.6] sm:leading-[1.6] font-normal max-w-[48rem]">
             We are constantly open to meet people who genuinely understand the
             current endless opportunities in the metaverse and web 3.0 ecosystem
             and are committed to make the world a better and more-creative
             space.{" "}
           </p>
         </div>
-        <img src={girlDancing} className="w-[30%]" alt="" />
+        <img
+          src={girlDancing}
+          className="w-[100%] max-w-[12rem] lg:max-w-none lg:w-[30%]"
+          alt=""
+        />
       </div>
     </div>
   );

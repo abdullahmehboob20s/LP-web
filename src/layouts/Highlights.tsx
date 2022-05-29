@@ -19,9 +19,9 @@ function Highlights() {
             className="w-full h-full top-0 left-0 absolute z-[-10]"
             alt=""
           />
-          <h1 className="title mb-12">Company’s Highlights</h1>
+          <h1 className="title mb-8 sm:mb-12">Company’s Highlights</h1>
 
-          <div className="grid grid-cols-2 gap-6 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 ">
             <HightlightCard
               title="Music NFT’s marketplace"
               desc="Via our web platform, music creators from the universe can check-in with their copyrights and check-out with a new-born NFT. Halleluiah!"
@@ -49,10 +49,11 @@ function Highlights() {
           </div>
         </div>
 
-        <div className="flex justify-between">
+        <div className="flex justify-center flex-wrap">
           <CricleCard
             bgImg={circle1img}
-            className="flex flex-col items-center justify-center"
+            className="flex flex-col items-center justify-center "
+            parentClassName="m-3"
           >
             <img src={logo2} className="w-[90%] mb-3" alt="" />
             <p className="text-center text-white text-base font-[700]">
@@ -60,13 +61,16 @@ function Highlights() {
               STUDIO
             </p>
           </CricleCard>
-          <CricleCard bgImg={circle2img}>
+          <CricleCard bgImg={circle2img} className="" parentClassName="m-3">
             <p className="text-center text-white text-base font-[700]">
               METAVERSE <br />
               PLATFORMS
             </p>
           </CricleCard>
-          <CricleCard className="flex flex-col items-center justify-center">
+          <CricleCard
+            className="flex flex-col items-center justify-center "
+            parentClassName="m-3"
+          >
             <img src={brandLogo} alt="" className="mb-4" />
             <img src={logo2} className="w-[90%] mb-3" alt="" />
             <p className="text-center text-white text-base font-[700]">
@@ -75,7 +79,8 @@ function Highlights() {
           </CricleCard>
           <CricleCard
             bgImg={circle3img}
-            className="flex flex-col items-center justify-center"
+            className="flex flex-col items-center justify-center "
+            parentClassName="m-3"
           >
             <img src={logo2} className="w-[90%] mb-3" alt="" />
             <p className="text-center text-white text-base font-[700]">
@@ -84,7 +89,7 @@ function Highlights() {
               MARKETPLACE
             </p>
           </CricleCard>
-          <CricleCard bgImg={circle4img}>
+          <CricleCard bgImg={circle4img} className="" parentClassName="m-3">
             <p className="text-center text-white text-base font-[700]">
               MUSIC <br />
               IPS

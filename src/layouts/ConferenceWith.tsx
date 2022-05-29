@@ -21,9 +21,9 @@ function ConferenceWith() {
       />
 
       <div className="container relative">
-        <div className="mb-[9rem]">
+        <div className="text-center sm:text-left mb-[3rem] sm:mb-[9rem]">
           <h4 className="mb-4 text-sm font-[400]">In conference with:</h4>
-          <div className="flex items-center space-x-6">
+          <div className="flex items-center justify-center sm:justify-start space-x-6 space-y-2 flex-wrap">
             <img src={moonpay} alt="" />
             <img src={magic} alt="" />
             <img src={convalent} alt="" />

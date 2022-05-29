@@ -4,13 +4,17 @@ function CricleCard({
   children,
   bgImg,
   className,
+  parentClassName,
 }: {
   children?: any;
   bgImg?: any;
   className?: any;
+  parentClassName?: any;
 }) {
   return (
-    <div className="w-[14.4425rem] h-[14.4425rem] rounded-full overflow-hidden border-[.5rem] z-[10] flex items-center justify-center border-black relative shadow-whitish">
+    <div
+      className={`w-[14.4425rem] h-[14.4425rem] rounded-full overflow-hidden border-[.5rem] z-[10] flex items-center justify-center border-black relative shadow-whitish ${parentClassName}`}
+    >
       {bgImg ? (
         <img
           src={bgImg}

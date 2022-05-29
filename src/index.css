@@ -27,15 +27,15 @@
   }
 
   .title {
-    @apply text-4xl text-white font-normal;
+    @apply text-xl sm:text-2xl lg:text-4xl text-white font-normal;
   }
 
   .desc {
-    @apply text-2xl text-white leading-[1.6];
+    @apply text-[1rem] sm:text-[1.2rem] lg:text-2xl text-white leading-[1.6] lg:leading-[1.6] sm:leading-[1.6];
   }
 
   .mb-200px {
-    @apply mb-[12.5rem];
+    @apply mb-[6.25rem] sm:mb-[8rem] xl:mb-[12.5rem];
   }
 
   .mb-100px {

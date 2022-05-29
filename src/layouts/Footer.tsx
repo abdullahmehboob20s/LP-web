@@ -14,7 +14,7 @@ function Footer() {
         <header className="mb-8">
           <img src={logo} alt="" />
         </header>
-        <main className="flex space-x-24 pb-[5rem]">
+        <main className="flex flex-col lg:flex-row space-y-12 lg:space-y-0 lg:space-x-24 pb-[5rem]">
           <div className="max-w-[25.5rem]">
             <p className="text-sm white leading-[1.6] font-normal mb-6">
               Halleluiah is a music NFT marketplace dedicated to on-ramp music

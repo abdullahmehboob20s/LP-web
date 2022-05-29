@@ -14,7 +14,7 @@ function Team() {
         />
         <h1 className="title mb-12">Team</h1>
 
-        <div className="flex justify-between space-x-6">
+        <div className="flex justify-center flex-wrap p-[-1rem]">
           <TeamCard img={teamMember1} title="Bezalel E Raviv" />
           <TeamCard title="Yorik Ben David" />
           <TeamCard title="Hilla Srour" />
