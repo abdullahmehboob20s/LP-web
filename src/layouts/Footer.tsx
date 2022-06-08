@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "assets/images/logo.svg";
-import { FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaDiscord } from "react-icons/fa";
 import arrowup from "assets/images/arrow-up.svg";
 
 function Footer() {
@@ -22,11 +22,22 @@ function Footer() {
               and vice versa.
             </p>
             <div className="flex items-center space-x-6">
-              <a href="/" target="_blank">
+              <a
+                href="https://twitter.com/Halleluiah_xyz"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <FaTwitter size={24} color="white" />
               </a>
-              <a href="/" target="_blank">
+              <a
+                href="https://www.linkedin.com/company/halleluiah/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedin size={24} color="white" />
+              </a>
+              <a href="/" target="_blank" rel="noreferrer">
+                <FaDiscord size={24} color="white" />
               </a>
             </div>
           </div>

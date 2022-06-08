@@ -1,8 +1,6 @@
 import React from "react";
 import logo from "assets/images/logo.svg";
-import { FaTwitter, FaLinkedin } from "react-icons/fa";
-import Button from "components/Button";
-import { IoMenu } from "react-icons/io5";
+import { FaTwitter, FaLinkedin, FaDiscord } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -32,6 +30,13 @@ function Navbar() {
             target="_blank"
           >
             <FaLinkedin color="white" />
+          </a>
+          <a
+            href="/"
+            className="text-xl sm:text-2xl xl:text-3xl"
+            target="_blank"
+          >
+            <FaDiscord color="white" />
           </a>
         </div>
       </div>
