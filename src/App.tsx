@@ -1,38 +1,23 @@
 import React from "react";
-import Navbar from "layouts/Navbar";
-import Hero from "layouts/Hero";
-import ConferenceWith from "layouts/ConferenceWith";
-import Highlights from "layouts/Highlights";
-import GreatestMinds from "layouts/GreatestMinds";
-import Features from "layouts/Features";
-import Team from "layouts/Team";
-import Welcome from "layouts/Welcome";
-import Footer from "layouts/Footer";
+import HomePage from "pages/HomePage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import TermsOfUse from "pages/TermsOfUse";
+import PrivacyPolicy from "pages/PrivacyPolicy";
+import CookiesPolicy from "pages/CookiesPolicy";
+import ScrollToTop from "components/ScrollToTop";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <div className="mb-200px">
-        <ConferenceWith />
-      </div>
-      <div className="mb-200px">
-        <Highlights />
-      </div>
-      <div className="mb-200px">
-        <GreatestMinds />
-      </div>
-      <div className="mb-200px">
-        <Features />
-      </div>
-      <div className="mb-200px">
-        <Team />
-      </div>
-      <div className="mb-100px">
-        <Welcome />
-      </div>
-      <Footer />
+      <Router>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/terms-of-use" element={<TermsOfUse />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/cookies-policy" element={<CookiesPolicy />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

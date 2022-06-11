@@ -2,12 +2,17 @@ import React from "react";
 import logo from "assets/images/logo.svg";
 import { FaTwitter, FaLinkedin, FaDiscord } from "react-icons/fa";
 import arrowup from "assets/images/arrow-up.svg";
+import { Link } from "react-router-dom";
+import { animateScroll as scroll } from "react-scroll";
 
 function Footer() {
   return (
     <div className="bg-black py-12 relative">
       <div className="container relative">
-        <button className="w-[3rem] h-[3rem] rounded-full flex justify-center items-center cursor-pointer absolute bottom-[4rem] right-[0] bg-btn-green">
+        <button
+          className="w-[3rem] h-[3rem] rounded-full flex justify-center items-center cursor-pointer absolute bottom-[4rem] right-[0] bg-btn-green"
+          onClick={() => scroll.scrollToTop()}
+        >
           <img src={arrowup} alt="" />
         </button>
 
@@ -74,24 +79,24 @@ function Footer() {
             </a>
           </div>
           <div>
-            <a
-              href="#"
+            <Link
+              to="/terms-of-use"
               className="text-sm white cursor-pointer font-normal mb-2 block"
             >
               Terms of use
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/privacy-policy"
               className="text-sm white cursor-pointer font-normal mb-2 block"
             >
               Privacy policy{" "}
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/cookies-policy"
               className="text-sm white cursor-pointer font-normal mb-2 block"
             >
               Cookies policy{" "}
-            </a>
+            </Link>
           </div>
         </main>
         <footer className="flex justify-end">
