@@ -8,7 +8,7 @@ function Contact() {
       <div className="container">
         <h1 className="title mb-6 sm:mb-10 text-center">Contact Us</h1>
 
-        <form className="max-w-[40rem] mx-auto">
+        <form className="max-w-[32rem] mx-auto">
           <div className="flex mb-8">
             <input
               type="email"
@@ -20,8 +20,7 @@ function Contact() {
 
           <div className="space-y-4 sm:space-y-0 sm:space-x-6 flex flex-col sm:flex-row sm:items-center justify-center mx-auto max-w-[8rem] sm:max-w-auto">
             <Checkbox title="Artist" id="Artist" name="abc" />
-            <Checkbox title="Community" id="Community" name="abc" />
-            <Checkbox title="Member" id="Member" name="abc" />
+            <Checkbox title="Community Member" id="Community" name="abc" />
           </div>
         </form>
       </div>

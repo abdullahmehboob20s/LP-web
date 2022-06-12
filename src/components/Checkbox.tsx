@@ -15,8 +15,8 @@ function Checkbox({
         <input type={"radio"} name={name} id={id} />
       </div>
       <label
-        htmlFor={title}
-        className="cursor-pointer text-sm sm:text-base xl:text-base"
+        htmlFor={id}
+        className="w-max cursor-pointer text-sm sm:text-base xl:text-base"
       >
         {title}
       </label>

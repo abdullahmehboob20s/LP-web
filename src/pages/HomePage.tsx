@@ -30,11 +30,13 @@ function HomePage() {
       {/* <div className="mb-200px">
       <Team />
     </div> */}
-      <div className="mb-100px" id="form">
-        <Contact />
-      </div>
+
       <div className="mb-100px">
         <Welcome />
+      </div>
+
+      <div className="mb-100px" id="form">
+        <Contact />
       </div>
       <Footer />
     </div>
