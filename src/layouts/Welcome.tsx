@@ -3,6 +3,7 @@ import React from "react";
 import girlDancing from "assets/images/girl-dancing.png";
 import welcomeBlobRight from "assets/images/welcome-blob.png";
 import welcomeBlobLeft from "assets/images/welcome-blob-purple.png";
+import welcomeAvatar from "assets/images/welcome-avatar-2.png";
 
 function Welcome() {
   return (
@@ -36,9 +37,14 @@ function Welcome() {
             space.{" "}
           </p>
         </div>
-        <img
+        {/* <img
           src={girlDancing}
           className="w-[100%] max-w-[12rem] lg:max-w-none lg:w-[30%]"
+          alt=""
+        /> */}
+        <img
+          src={welcomeAvatar}
+          className="w-[100%] max-w-[12rem] lg:max-w-none lg:w-[45%]"
           alt=""
         />
       </div>

@@ -38,8 +38,15 @@
     @apply mb-[6.25rem] sm:mb-[8rem] xl:mb-[12.5rem];
   }
 
+  .py-200px {
+    @apply py-[6.25rem] sm:py-[8rem] xl:py-[12.5rem];
+  }
+
   .mb-100px {
     @apply mb-[6.25rem];
+  }
+  .py-100px {
+    @apply py-[6.25rem];
   }
 
   .checkbox {
