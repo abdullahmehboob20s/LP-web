@@ -9,7 +9,7 @@ module.exports = {
         whitish: "8px 8px 31px rgba(255, 255, 255, 0.3)",
       },
       screens: {
-        "380px": "23.75em",
+        "380px": { max: "23.75em" },
       },
     },
     fontFamily: {

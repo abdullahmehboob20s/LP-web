@@ -8,7 +8,7 @@ import useMediaQuery from "hooks/useMediaQuery";
 function GreatestMinds() {
   const isBellow640px = useMediaQuery("(max-width : 40em)");
   return (
-    <div className="relative">
+    <div className="relative ">
       <img
         src={mindblob1}
         className="absolute top-[50%] left-[0%] translate-y-[-50%] z-[-10]"

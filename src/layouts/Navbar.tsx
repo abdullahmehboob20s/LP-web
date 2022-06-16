@@ -11,42 +11,44 @@ function Navbar() {
         <Link to="/">
           <img
             src={logo}
-            className="w-[8rem] sm:w-[10rem] xl:w-[12.0625rem]"
+            className="w-[8rem] 380px:w-[7rem] sm:w-[10rem] xl:w-[12.0625rem]"
             alt=""
           />
         </Link>
 
-        <div className="flex items-center space-x-3 380px:space-x-4 sm:space-x-6 xl:space-x-8">
-          <ScrollLink
-            to="form"
-            smooth={true}
-            offset={-200}
-            className="cursor-pointer bg-btn-green py-[0.4rem] sm:py-2 px-4 sm:px-6 xl:py-3 xl:px-9 rounded-[4rem] font-bold text-[0.50rem] 380px:text-xs sm:text-sm xl:text-lg"
-          >
-            APPLY NOW
-          </ScrollLink>
-
+        <div className="flex items-center space-x-3 380px:space-x-2 sm:space-x-6 xl:space-x-8">
           <a
-            href="/"
-            className="text-xl sm:text-2xl xl:text-3xl"
+            className="text-xl 380px:text-base sm:text-2xl xl:text-3xl"
+            href="https://twitter.com/Halleluiah_xyz"
+            rel="noreferrer"
             target="_blank"
           >
             <FaTwitter color="white" />
           </a>
           <a
-            href="/"
-            className="text-xl sm:text-2xl xl:text-3xl"
+            className="text-xl 380px:text-base sm:text-2xl xl:text-3xl"
+            href="https://www.linkedin.com/company/halleluiah/"
             target="_blank"
+            rel="noreferrer"
           >
             <FaLinkedin color="white" />
           </a>
           <a
             href="/"
-            className="text-xl sm:text-2xl xl:text-3xl"
+            className="text-xl 380px:text-base sm:text-2xl xl:text-3xl"
             target="_blank"
           >
             <FaDiscord color="white" />
           </a>
+
+          <ScrollLink
+            to="form"
+            smooth={true}
+            offset={-200}
+            className="cursor-pointer bg-btn-green py-[0.3rem] sm:py-2 px-4 sm:px-6 xl:py-3 xl:px-8 rounded-[4rem] font-bold text-[0.50rem] 380px:text-[0.50rem] sm:text-sm xl:text-base"
+          >
+            APPLY NOW
+          </ScrollLink>
         </div>
       </div>
     </div>

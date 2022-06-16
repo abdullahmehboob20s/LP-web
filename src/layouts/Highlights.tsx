@@ -8,12 +8,13 @@ import circle4img from "assets/images/circle4img.png";
 import brandLogo from "assets/images/brand-logo.png";
 import logo2 from "assets/images/logo-2.svg";
 import highlightBlob from "assets/images/highlight-blob.png";
+import circles from "assets/images/circles.png";
 
 function Highlights() {
   return (
     <div>
       <div className="container">
-        <div className="mb-200px relative">
+        <div className="mb-100px relative">
           <img
             src={highlightBlob}
             className="w-full h-full top-0 left-0 absolute z-[-10]"
@@ -49,7 +50,9 @@ function Highlights() {
           </div>
         </div>
 
-        <div className="flex justify-center flex-wrap">
+        <img src={circles} className="w-full select-none undragable" alt="" />
+
+        {/* <div className="flex justify-center flex-wrap">
           <CricleCard
             bgImg={circle1img}
             className="flex flex-col items-center justify-center "
@@ -95,7 +98,7 @@ function Highlights() {
               IPS
             </p>
           </CricleCard>
-        </div>
+        </div> */}
       </div>
     </div>
   );

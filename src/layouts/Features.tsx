@@ -23,25 +23,25 @@ function Features() {
       <div className="container">
         <h1 className="title mb-6 sm:mb-12">Features on:</h1>
 
-        <div className="flex flex-col sm:flex-row  flex-wrap space-y-4 sm:space-y-0 sm:space-x-4 xl:space-x-8">
-          <button>
+        <div className="flex flex-row space-x-4 xl:space-x-8">
+          <button className="flex-1 md:flex-none sm:w-fit">
             <img
-              className="w-[6rem] md:w-[8rem] xl:w-[12.0625rem] shadow-whitish rounded-lg bg-black"
+              className="w-full md:w-[8rem] xl:w-[12.0625rem] shadow-whitish rounded-lg bg-black"
               src={feature1}
               alt=""
             />
           </button>
-          <button>
+          <button className="flex-1 md:flex-none sm:w-fit">
             <img
-              className="w-[6rem] md:w-[8rem] xl:w-[12.0625rem] shadow-whitish rounded-lg"
+              className="w-full md:w-[8rem] xl:w-[12.0625rem] shadow-whitish rounded-lg"
               src={feature2}
               alt=""
             />
           </button>
-          <button className="w-fit py-6 flex items-center shadow-whitish bg-black rounded-lg justify-center">
+          <button className="flex-1 md:flex-none md:w-fit py-6 flex items-center shadow-whitish bg-black rounded-lg justify-center">
             <img
               src={DJ}
-              className="w-[6rem] md:w-[8rem] xl:w-[12.0625rem]"
+              className="w-full md:w-[8rem] xl:w-[12.0625rem]"
               alt=""
             />
           </button>

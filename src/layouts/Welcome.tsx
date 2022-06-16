@@ -44,7 +44,7 @@ function Welcome() {
         /> */}
         <img
           src={welcomeAvatar}
-          className="w-[100%] max-w-[12rem] lg:max-w-none lg:w-[45%]"
+          className="w-[100%] max-w-[20rem] lg:max-w-none lg:w-[45%]"
           alt=""
         />
       </div>

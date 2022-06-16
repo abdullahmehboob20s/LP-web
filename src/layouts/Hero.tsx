@@ -7,7 +7,7 @@ function Hero() {
     <div className="relative">
       <img
         src={heroBlob}
-        className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-[-1]"
+        className="absolute w-full top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-[-1]"
         alt=""
       />
 
