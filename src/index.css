@@ -17,7 +17,7 @@
 @layer components {
   .container {
     /* 1700px */
-    @apply max-w-[106.25rem] mx-auto w-[90%];
+    @apply max-w-[70rem] mx-auto w-[90%] xl:w-[75%];
   }
 
   .hightlight-card {
