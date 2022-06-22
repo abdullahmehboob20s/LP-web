@@ -1,13 +1,13 @@
 import React from "react";
 import heroBoy from "assets/images/hero-boy.png";
-import heroBlob from "assets/images/hero-blob.png";
+import heroBlob from "assets/images/hero-blob-2.png";
 
 function Hero() {
   return (
-    <div className="relative">
+    <div className="relative ">
       <img
         src={heroBlob}
-        className="absolute w-full top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-[-1]"
+        className="absolute z-[-10] w-[100%] xl:w-[90%] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
         alt=""
       />
 
