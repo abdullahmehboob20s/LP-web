@@ -9,6 +9,7 @@ import Team from "layouts/Team";
 import Welcome from "layouts/Welcome";
 import Footer from "layouts/Footer";
 import Contact from "layouts/Contact";
+import Curation from "layouts/Curation";
 
 function HomePage() {
   return (
@@ -21,8 +22,11 @@ function HomePage() {
       <div className="mb-200px">
         <Highlights />
       </div>
-      <div className="mb-200px">
+      <div className="mb-100px">
         <GreatestMinds />
+      </div>
+      <div className="mb-100px">
+        <Curation />
       </div>
       <div className="mb-200px">
         <Features />
